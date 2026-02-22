@@ -334,27 +334,6 @@ body {
 
 .project-card:hover { background: var(--surface); }
 
-.project-visual {
-  height: 130px;
-  display: flex;
-  align-items: flex-end;
-  padding: 16px 20px;
-  overflow: hidden;
-}
-
-.project-vis-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-/* Deep dark gradients — contrast nicely against white page */
-.statwell-visual  { background: linear-gradient(135deg, #0d0d1e, #1a1040, #2d1b69); }
-.portfolio-visual { background: linear-gradient(135deg, #0a1628, #0d3060, #0a4a7a); }
-.wemby-visual     { background: linear-gradient(135deg, #1a0a00, #4a1500, #7c2500); }
-.retail-visual    { background: linear-gradient(135deg, #001a0a, #003d1a, #005c28); }
 
 .project-body {
   padding: 20px 20px 22px;
