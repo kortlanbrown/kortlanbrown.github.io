@@ -6,313 +6,290 @@
     <title>Kortlan Brown &mdash; Data Analyst &amp; Web Developer</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
 
-    <main class="container">
-
-      <!-- ========================
-           PROFILE / HERO
-      ========================= -->
-      <section class="profile">
-        <div class="photo-ring">
-          <img
-            src="KortlanWebsitephoto.JPG"
-            alt="Kortlan Brown"
-            class="profile-photo"
-          />
-        </div>
+    <!-- Hero sits outside the container so the grey goes full width -->
+    <header class="hero">
+      <div class="hero-inner">
+        <h1 class="name">Kortlan Brown</h1>
 
         <div class="available-badge">
           <span class="available-dot"></span>
           Available for Projects
         </div>
 
-        <h1 class="name">Kortlan Brown</h1>
         <p class="tagline">Data Analyst &amp; Web Developer &mdash; Louisiana</p>
 
-        <div class="links">
-          <a
-            href="https://www.linkedin.com/in/kortlanbrown/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-card linkedin"
-          >
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/kortlanbrown"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-card github"
-          >
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
-            </svg>
-            GitHub
-          </a>
-          <a
-            href="https://www.instagram.com/kortlanjb/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="link-card instagram"
-          >
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
-            </svg>
-            Instagram
-          </a>
+        <nav class="hero-links">
+          <a href="https://www.linkedin.com/in/kortlanbrown/" target="_blank" rel="noopener noreferrer" class="hero-link">LinkedIn</a>
+          <span class="dot">&middot;</span>
+          <a href="https://github.com/kortlanbrown" target="_blank" rel="noopener noreferrer" class="hero-link">GitHub</a>
+          <span class="dot">&middot;</span>
+          <a href="https://www.instagram.com/kortlanjb/" target="_blank" rel="noopener noreferrer" class="hero-link">Instagram</a>
+          <span class="dot">&middot;</span>
+          <a href="mailto:kortlanjb@gmail.com" class="hero-link hero-link-email">kortlanjb@gmail.com</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <!-- =====================
+           ACCORDION WRAPPER
+           Three big clickable rows.
+           Each one expands to reveal
+           its content when clicked.
+      ====================== -->
+      <div class="accordion">
+
+        <!-- ── ROW 01: WHAT I DO ── -->
+        <div class="acc-section" id="sec-services">
+          <button class="acc-header" onclick="toggleSection('services', this)">
+            <div class="acc-header-left">
+              <span class="acc-num">01</span>
+              <span class="acc-title">What I Do</span>
+            </div>
+            <span class="acc-toggle">+</span>
+          </button>
+
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-content">
+
+                <div class="service-block">
+                  <div class="service-block-top">
+                    <span class="service-arrow">&rarr;</span>
+                    <h3>Website Design &amp; Development</h3>
+                  </div>
+                  <p>Clean, intentional websites built to make your business stand out and convert visitors into clients. I handle everything from design to launch &mdash; no templates, no shortcuts.</p>
+                  <div class="tag-row">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Custom Design</span>
+                  </div>
+                </div>
+
+                <div class="service-block">
+                  <div class="service-block-top">
+                    <span class="service-arrow">&rarr;</span>
+                    <h3>Data Analytics &amp; Dashboards</h3>
+                  </div>
+                  <p>Turn your raw data into clear decisions. I build custom dashboards and reports using Python, SQL, and Tableau that tell your story at a glance &mdash; no more guessing.</p>
+                  <div class="tag-row">
+                    <span class="tag">Python</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Tableau</span>
+                    <span class="tag">Reporting</span>
+                  </div>
+                </div>
+
+                <div class="service-block service-block-last">
+                  <div class="service-block-top">
+                    <span class="service-arrow">&rarr;</span>
+                    <h3>Strategy &amp; Growth</h3>
+                  </div>
+                  <p>Combine a strong web presence with data intelligence to help your business communicate confidently, attract the right clients, and grow with intention.</p>
+                  <div class="tag-row">
+                    <span class="tag">Analytics</span>
+                    <span class="tag">Web Strategy</span>
+                    <span class="tag">Growth</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <!-- ========================
-           SERVICES
-      ========================= -->
-      <section class="page-section">
-        <p class="section-label">What I Do</p>
-        <h2 class="section-title">Services</h2>
-        <div class="services-grid">
+        <!-- ── ROW 02: MY WORK ── -->
+        <div class="acc-section" id="sec-portfolio">
+          <button class="acc-header" onclick="toggleSection('portfolio', this)">
+            <div class="acc-header-left">
+              <span class="acc-num">02</span>
+              <span class="acc-title">My Work</span>
+            </div>
+            <span class="acc-toggle">+</span>
+          </button>
 
-          <div class="service-card">
-            <div class="service-icon-wrap service-web">🌐</div>
-            <h3>Website Design &amp; Development</h3>
-            <p>Clean, intentional websites built to make your business stand out. I handle everything from design to launch — no templates, no shortcuts.</p>
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-content">
+
+                <div class="portfolio-grid">
+
+                  <div class="project-card">
+                    <div class="project-visual statwell-visual">
+                      <span class="project-vis-label">Statwell</span>
+                    </div>
+                    <div class="project-body">
+                      <h3>Statwell at BYEPJ</h3>
+                      <p>Analytics brand delivering data-driven insights for sports and business clients &mdash; built on the belief that great decisions start with great data.</p>
+                      <div class="tag-row">
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Business</span>
+                        <span class="tag">Strategy</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="project-card">
+                    <div class="project-visual portfolio-visual">
+                      <span class="project-vis-label">KB.dev</span>
+                    </div>
+                    <div class="project-body">
+                      <h3>This Portfolio Site</h3>
+                      <p>Designed and hand-coded from scratch using HTML and CSS &mdash; no templates, no drag-and-drop. Fast, clean, and fully custom.</p>
+                      <div class="tag-row">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a class="project-card project-card-link" href="https://github.com/kortlanbrown" target="_blank" rel="noopener noreferrer">
+                    <div class="project-visual wemby-visual">
+                      <span class="project-vis-label">NBA ML</span>
+                    </div>
+                    <div class="project-body">
+                      <h3>Wemby NBA Career Predictor</h3>
+                      <p>ML model predicting NBA career performance from rookie stats. R&sup2;&asymp;0.80 using XGBoost, Pandas &amp; Scikit-Learn.</p>
+                      <div class="tag-row">
+                        <span class="tag">Python</span>
+                        <span class="tag">XGBoost</span>
+                        <span class="tag">Sports Analytics</span>
+                      </div>
+                      <span class="project-link-label">View on GitHub &rarr;</span>
+                    </div>
+                  </a>
+
+                  <a class="project-card project-card-link" href="https://github.com/kortlanbrown" target="_blank" rel="noopener noreferrer">
+                    <div class="project-visual retail-visual">
+                      <span class="project-vis-label">BI Dashboard</span>
+                    </div>
+                    <div class="project-body">
+                      <h3>Retail Sales Dashboard</h3>
+                      <p>Tableau dashboard tracking product performance &amp; inventory analytics &mdash; clear view of what&rsquo;s selling and why.</p>
+                      <div class="tag-row">
+                        <span class="tag">Tableau</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">Business Intelligence</span>
+                      </div>
+                      <span class="project-link-label">View on GitHub &rarr;</span>
+                    </div>
+                  </a>
+
+                </div>
+
+              </div>
+            </div>
           </div>
-
-          <div class="service-card">
-            <div class="service-icon-wrap service-data">📊</div>
-            <h3>Data Analytics &amp; Dashboards</h3>
-            <p>Turn raw data into clear decisions. I build custom dashboards and reports using Python, SQL, and Tableau that tell your story at a glance.</p>
-          </div>
-
-          <div class="service-card">
-            <div class="service-icon-wrap service-strategy">🚀</div>
-            <h3>Strategy &amp; Growth</h3>
-            <p>Combine a strong web presence with data intelligence to help your business communicate confidently, attract the right clients, and grow.</p>
-          </div>
-
         </div>
-      </section>
 
-      <!-- ========================
-           PORTFOLIO
-      ========================= -->
-      <section class="page-section">
-        <p class="section-label">My Work</p>
-        <h2 class="section-title">Portfolio</h2>
-        <div class="portfolio-grid">
-
-          <!-- Statwell -->
-          <div class="project-card">
-            <div class="project-visual statwell-visual">
-              <span class="project-visual-text">Statwell</span>
+        <!-- ── ROW 03: GET TO KNOW ME ── -->
+        <div class="acc-section" id="sec-about">
+          <button class="acc-header" onclick="toggleSection('about', this)">
+            <div class="acc-header-left">
+              <span class="acc-num">03</span>
+              <span class="acc-title">Get to Know Me</span>
             </div>
-            <div class="project-body">
-              <h3>Statwell at BYEPJ</h3>
-              <p>Analytics brand and business delivering data-driven insights for sports and business clients — built on the belief that great decisions start with great data.</p>
-              <div class="project-tags">
-                <span class="tag">Analytics</span>
-                <span class="tag">Business</span>
-                <span class="tag">Strategy</span>
+            <span class="acc-toggle">+</span>
+          </button>
+
+          <div class="acc-body">
+            <div class="acc-body-inner">
+              <div class="acc-content">
+
+                <div class="tab-nav">
+                  <button class="tab-btn active" onclick="switchTab('about', 'me', this)">About Me</button>
+                  <button class="tab-btn" onclick="switchTab('about', 'analyst', this)">Data Analyst</button>
+                  <button class="tab-btn" onclick="switchTab('about', 'sports', this)">Sports Fan</button>
+                </div>
+
+                <div class="tab-body">
+
+                  <div class="tab-panel active" id="about-me" data-group="about">
+                    <div class="about-panel">
+                      <p>LSU Alum. Ohio MBA. Love good times with my loved ones.</p>
+                    </div>
+                  </div>
+
+                  <div class="tab-panel" id="about-analyst" data-group="about">
+                    <div class="about-panel">
+                      <p>I&rsquo;m a data analyst who builds websites with intention &mdash; combining analytics, structure, and design to help businesses communicate clearly and grow confidently. I believe great data work isn&rsquo;t just about numbers; it&rsquo;s about telling the right story to the right people at the right time.</p>
+                    </div>
+                  </div>
+
+                  <div class="tab-panel" id="about-sports" data-group="about">
+                    <div class="about-panel">
+                      <p>WHO DAT ALL DAY. Big Saints fan through the ups and all of the downs. I refuse to engage in the GOAT debate &mdash; it&rsquo;s clearly King James. Currently obsessed with dynasty football and basketball.</p>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
-
-          <!-- This site -->
-          <div class="project-card">
-            <div class="project-visual portfolio-visual">
-              <span class="project-visual-text">KB.dev</span>
-            </div>
-            <div class="project-body">
-              <h3>This Portfolio Site</h3>
-              <p>Designed and hand-coded from scratch using HTML and CSS — no templates, no drag-and-drop. Built to be fast, clean, and fully custom.</p>
-              <div class="project-tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Wemby -->
-          <a
-            class="project-card project-card-link"
-            href="https://github.com/kortlanbrown"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="project-visual wemby-visual">
-              <span class="project-visual-text">🏀 ML</span>
-            </div>
-            <div class="project-body">
-              <h3>Wemby NBA Career Predictor</h3>
-              <p>Machine learning model predicting NBA career performance using rookie-year statistics. Achieved R&sup2; &asymp; 0.80 using XGBoost — built with Python, Pandas, and Scikit-Learn.</p>
-              <div class="project-tags">
-                <span class="tag">Python</span>
-                <span class="tag">XGBoost</span>
-                <span class="tag">Sports Analytics</span>
-              </div>
-              <span class="project-link-label">View on GitHub &rarr;</span>
-            </div>
-          </a>
-
-          <!-- Retail Sales -->
-          <a
-            class="project-card project-card-link"
-            href="https://github.com/kortlanbrown"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="project-visual retail-visual">
-              <span class="project-visual-text">📦 BI</span>
-            </div>
-            <div class="project-body">
-              <h3>Retail Sales Dashboard</h3>
-              <p>Interactive Tableau dashboard tracking product performance and inventory analytics — giving retail teams a clear view of what's selling, what's not, and why.</p>
-              <div class="project-tags">
-                <span class="tag">Tableau</span>
-                <span class="tag">Excel</span>
-                <span class="tag">Business Intelligence</span>
-              </div>
-              <span class="project-link-label">View on GitHub &rarr;</span>
-            </div>
-          </a>
-
         </div>
-      </section>
 
-      <!-- ========================
-           ABOUT (ACCORDION)
-      ========================= -->
-      <section class="page-section">
-        <p class="section-label">Get to Know Me</p>
-        <h2 class="section-title">More About Kortlan</h2>
+      </div>
+      <!-- end accordion -->
 
-        <div class="accordion">
-
-          <div class="acc-item">
-            <button class="acc-header" onclick="toggleAcc('about', this)">
-              <span class="acc-icon-wrap">👤</span>
-              <span class="acc-title">About Me</span>
-              <svg class="acc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
-            <div class="acc-body" id="acc-about">
-              <div class="acc-body-inner">
-                <div class="acc-visual about-visual">
-                  <span class="acc-visual-emoji">🎉</span>
-                </div>
-                <div class="acc-text">
-                  <h2>About Me</h2>
-                  <p>I'm a joyful, people-loving guy who's always laughing and never misses the dance floor. Newly married to the love of my life, I'm big on family, sports, and giving back through mentoring youth. Life is best lived loud, together, and with a whole lot of heart.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="acc-item">
-            <button class="acc-header" onclick="toggleAcc('analyst', this)">
-              <span class="acc-icon-wrap">📊</span>
-              <span class="acc-title">Data Analyst</span>
-              <svg class="acc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
-            <div class="acc-body" id="acc-analyst">
-              <div class="acc-body-inner">
-                <div class="acc-visual analyst-visual">
-                  <span class="acc-visual-emoji">📈</span>
-                </div>
-                <div class="acc-text">
-                  <h2>Data Analyst</h2>
-                  <p>I'm a data analyst who builds websites with intention — combining analytics, structure, and design to help businesses communicate clearly and grow confidently. I believe great data work isn't just about numbers; it's about telling the right story to the right people at the right time.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="acc-item">
-            <button class="acc-header" onclick="toggleAcc('sports', this)">
-              <span class="acc-icon-wrap">🏈</span>
-              <span class="acc-title">Sports Fan</span>
-              <svg class="acc-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </button>
-            <div class="acc-body" id="acc-sports">
-              <div class="acc-body-inner">
-                <div class="acc-visual sports-visual">
-                  <span class="acc-visual-emoji">⚜️</span>
-                </div>
-                <div class="acc-text">
-                  <h2>Sports Fan</h2>
-                  <p>WHO DAT ALL DAY. I am a big Saints fan through the ups and all of the downs. I refuse to engage in the GOAT debate as it is clearly King James at this point. Currently obsessed with dynasty football and basketball — building rosters, running trades, and taking it way too seriously.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <!-- ========================
+      <!-- =====================
            CONTACT
-      ========================= -->
+      ====================== -->
       <section class="contact-section">
-        <p class="section-label">Work Together</p>
-        <h2 class="contact-title">Let's Build Something</h2>
-        <p class="contact-sub">
-          Available for freelance projects. Whether you need a website, a data dashboard,
-          or both &mdash; reach out and let's talk about what I can build for you.
-        </p>
+        <span class="section-label">Work Together</span>
+        <h2 class="contact-title">Let&rsquo;s Work.</h2>
+        <p class="contact-sub">Available for freelance projects &mdash; websites, dashboards, or both. Reach out and let&rsquo;s talk.</p>
         <div class="contact-actions">
-          <a href="mailto:kortlanjb@gmail.com" class="contact-btn primary">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-              <polyline points="22,6 12,13 2,6"></polyline>
-            </svg>
-            kortlanjb@gmail.com
-          </a>
-          <a
-            href="https://www.linkedin.com/in/kortlanbrown/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="contact-btn secondary"
-          >
-            <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-            Connect on LinkedIn
-          </a>
+          <a href="mailto:kortlanjb@gmail.com" class="contact-btn primary">Send an Email</a>
+          <a href="https://www.linkedin.com/in/kortlanbrown/" target="_blank" rel="noopener noreferrer" class="contact-btn secondary">Connect on LinkedIn</a>
         </div>
       </section>
 
       <footer>
-        <p>&copy; 2026 Kortlan Brown &middot; Made with HTML &amp; CSS</p>
+        <p>&copy; 2026 Kortlan Brown &nbsp;&middot;&nbsp; kortlanbrown.github.io</p>
       </footer>
 
     </main>
 
     <script>
-      function toggleAcc(key, btn) {
-        const item = btn.closest('.acc-item');
-        const isOpen = item.classList.contains('open');
-        document.querySelectorAll('.acc-item').forEach(function(i) {
-          i.classList.remove('open');
+      // ── MAIN SECTION ACCORDION ──
+      // Clicking a row opens it. Clicking it again closes it.
+      // Only one section can be open at a time.
+      function toggleSection(key, btn) {
+        const section = btn.closest('.acc-section');
+        const isOpen  = section.classList.contains('open');
+
+        // Close everything first
+        document.querySelectorAll('.acc-section').forEach(function(s) {
+          s.classList.remove('open');
         });
-        if (!isOpen) {
-          item.classList.add('open');
-        }
+
+        // If it was closed, open it
+        if (!isOpen) section.classList.add('open');
+      }
+
+      // ── INNER TABS (Get to Know Me) ──
+      // Same tab-switching logic as before
+      function switchTab(group, key, btn) {
+        btn.closest('.tab-nav').querySelectorAll('.tab-btn').forEach(function(b) {
+          b.classList.remove('active');
+        });
+        btn.classList.add('active');
+
+        document.querySelectorAll('.tab-panel[data-group="' + group + '"]').forEach(function(p) {
+          p.classList.remove('active');
+        });
+        document.getElementById(group + '-' + key).classList.add('active');
       }
     </script>
+
   </body>
 </html>
